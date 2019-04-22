@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NecromancyApi", "NecromancyApi\NecromancyApi.csproj", "{6B521010-B60C-42D3-9211-18666E6DAFCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdqNecromancyService", "PdqNecromancyService\PdqNecromancyService.csproj", "{2F05F8C9-D6B5-459B-910C-AE36DC85F91B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B521010-B60C-42D3-9211-18666E6DAFCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B521010-B60C-42D3-9211-18666E6DAFCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B521010-B60C-42D3-9211-18666E6DAFCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B521010-B60C-42D3-9211-18666E6DAFCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F05F8C9-D6B5-459B-910C-AE36DC85F91B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F05F8C9-D6B5-459B-910C-AE36DC85F91B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F05F8C9-D6B5-459B-910C-AE36DC85F91B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F05F8C9-D6B5-459B-910C-AE36DC85F91B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4049A44A-5EB7-4ADA-AB98-5F3E8EF9F0B8}
+	EndGlobalSection
+EndGlobal
