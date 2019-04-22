@@ -1,0 +1,9 @@
+c:\users\owner\source\repos\PdqNecromancy\PdqNecromancyService\bin\Debug\netcoreapp2.0\PdqNecromancyService.deps.json
+c:\users\owner\source\repos\PdqNecromancy\PdqNecromancyService\bin\Debug\netcoreapp2.0\PdqNecromancyService.dll
+c:\users\owner\source\repos\PdqNecromancy\PdqNecromancyService\bin\Debug\netcoreapp2.0\PdqNecromancyService.pdb
+c:\users\owner\source\repos\PdqNecromancy\PdqNecromancyService\obj\Debug\netcoreapp2.0\PdqNecromancyService.csprojResolveAssemblyReference.cache
+c:\users\owner\source\repos\PdqNecromancy\PdqNecromancyService\obj\Debug\netcoreapp2.0\PdqNecromancyService.csproj.CoreCompileInputs.cache
+c:\users\owner\source\repos\PdqNecromancy\PdqNecromancyService\obj\Debug\netcoreapp2.0\PdqNecromancyService.AssemblyInfoInputs.cache
+c:\users\owner\source\repos\PdqNecromancy\PdqNecromancyService\obj\Debug\netcoreapp2.0\PdqNecromancyService.AssemblyInfo.cs
+c:\users\owner\source\repos\PdqNecromancy\PdqNecromancyService\obj\Debug\netcoreapp2.0\PdqNecromancyService.dll
+c:\users\owner\source\repos\PdqNecromancy\PdqNecromancyService\obj\Debug\netcoreapp2.0\PdqNecromancyService.pdb
