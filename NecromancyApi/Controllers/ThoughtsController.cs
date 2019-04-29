@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 using NecromancyApi.Models;
 using PdqNecromancyService.Interfaces;
 using PdqNecromancyService.Services;
+using Ninject;
 
 namespace NecromancyApi.Controllers
 {
@@ -16,34 +17,24 @@ namespace NecromancyApi.Controllers
     [Route("api/Thoughts")]
     public class ThoughtsController : ControllerBase
     {
-        private readonly IThought _thought; //todo: setting IOC to handle this
+        private readonly IThought _thought;
         private readonly IMapper _mapper;
 
-        public ThoughtsController(IMapper mapper)
+        public ThoughtsController(IMapper mapper, IThought thought)
         {
-            _thought = new Thoughts();
+            _thought = thought;
             _mapper = mapper;
         }
+
         [HttpGet]
         [Route("")]
-        public async Task<ApiThoughtsModel> GetThoughtsAsync()
+        public async Task<IActionResult> GetThoughtsAsync()
         {
             var getThought = await _thought.GetThoughts();
-            return _mapper.Map<ApiThoughtsModel>(getThought);
+            var response = _mapper.Map<ApiThoughtsModel>(getThought);
+            return Ok(response);
         }
 
-
-        [Route("api/Thoughts/Bad")]
-        public ActionResult GetBadRequest()
-        {
-            return BadRequest();
-        }
-
-        [Route("api/Thoughts/internal")]
-        public ActionResult GetInternalError()
-        {
-            return StatusCode(500);
-        }
     }
 
 }
